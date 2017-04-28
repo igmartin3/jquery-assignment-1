@@ -1,7 +1,9 @@
 // Do your work in this file.
 for (i = 1; i < 197; i++) {
-    var boxDiv = document.createElement("div");
-    boxDiv.className = "box";
+    //var boxDiv = document.createElement("div");
+    //boxDiv.className = "box";
+
+    var boxDiv = $("<div class='box'></div>");
 
     //var type1Div = document.createElement("div");
     //var type2Div = document.createElement("div");
